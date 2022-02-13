@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+
+    <!-- display player turn -->
+    <div class="display">Player
+        <span class="display-player">X</span>'s turn
+    </div>
+
+    <!-- container will hold the divs grid -->
+    <div id="game-board">
+        <!-- 3 x3 grid, add 9 divs w/ a class & id -->
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+    </div>
+
+    <div class="winner"></div>
+
+    <!-- reset button -->
+    <button id="reset">NEW GAME</button>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
