@@ -1,2 +1,7 @@
 # tic-tac-toe
-Tic Tac Toe Project
+
+## Techologies Used
+- HTML
+- CSS
+- JavaScript
+
