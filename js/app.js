@@ -108,7 +108,7 @@ const gameResults = () => {
     }
     if (roundWon) {
         displayResult(currentPlayer === 'X' ? playerXWon : playerOWon)
-        isGameActive = false
+        isGameActive = false 
         return
     }
     if (!gameBoard.includes('')) displayResult(tie)
@@ -131,12 +131,21 @@ cells.forEach((cell, n) => {
     })
 
 //reset game board
-const refreshPage = () => {
-    // refresh page
-    location.reload()
+// const refreshPage = () => {
+//     // refresh page
+//     location.reload()
+// }
+// // on click of button refresh page
+// resetButton.addEventListener('click', refreshPage)
+
+// reset global variables, remove your event listners, call gam function again
+const removeActions =(cell, n) => {
+    if (availableCell(cell) === false) {
+        cell
+    }
 }
-// on click of button refresh page
-resetButton.addEventListener('click', refreshPage)
+
+
 
 // add event listener to document
 document.addEventListener('DOMContentLoaded', () =>{
